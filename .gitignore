@@ -1,0 +1,42 @@
+# ==============================
+# Secrets / environment variables
+# ==============================
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# ==============================
+# Spring Boot / Maven
+# ==============================
+file-upload-backend/target/
+
+# STS / Eclipse
+.metadata/
+**/.settings/
+**/.classpath
+**/.project
+
+# ==============================
+# Next.js / Node
+# ==============================
+file-upload-frontend/node_modules/
+file-upload-frontend/.next/
+file-upload-frontend/out/
+file-upload-frontend/.vercel/
+
+# ==============================
+# Editors
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OS / logs
+# ==============================
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
